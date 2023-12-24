@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print
-        run: echo "final2"
+        run: echo "final2 ${{ github.event_name }}"
