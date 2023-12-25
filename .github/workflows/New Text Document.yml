@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: print
         run: echo "final2 ${{ github.event_name }}"
+      - name: print
+        run: actions/checkout@v4
