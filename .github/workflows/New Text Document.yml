@@ -1,6 +1,5 @@
 name: Final
-on: 
-  pull_request
+on: pull_request
 jobs:
   jobs-Final:
     runs-on: ubuntu-latest
